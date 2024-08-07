@@ -22,3 +22,13 @@ php artisan module:make Blog --api  // --api
 php artisan module:make Blog -d // --disabled
 
 ```
+
+
+- create Module Model :
+
+   - php artisan module:make-model <ModelName> <option> <ModuleName>
+    Example : model with migration file create
+    ```
+     php artisan module:make-model Post -m Blog
+
+    ```
